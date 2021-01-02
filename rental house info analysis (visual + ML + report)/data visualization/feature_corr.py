@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_json("train.json")
 fig, ax = plt.subplots(figsize=(15,10))
-sns.heatmap(df.corr())
+sns.heatmap(df.corr(), annot=True)
 plt.savefig("feature_corr.png")
 plt.show()
 plt.close()
