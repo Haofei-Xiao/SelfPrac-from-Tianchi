@@ -3,6 +3,14 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 
+'''
+https://stackoverflow.com/questions/51452031/how-to-use-the-test-data-against-the-trained-model
+
+https://stackoverflow.com/questions/45681387/predict-test-data-using-model-based-on-training-data-set
+
+https://www.kaggle.com/c/titanic/discussion/54683
+'''
+
 x_col = ["bathrooms", "bedrooms", "latitude", "longitude", "price"]
 
 df1= pd.read_json('train.json')
