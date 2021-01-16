@@ -6,3 +6,10 @@ the "user behavior" is a program showing the similarity of websites visited by T
     a. it has keyword extractions showing rental info people care most about; \
     b. prediction of price interest level; \
     c. and data visualization given different features (see details in report)\
+
+"H1B" is also a more of completed project as well, stressing on analysing the relationships between the factors\
+    a. bar plot mostly\
+    answering some of the questions:\
+    b. hows job title might affect the application status
+    c. hows job and company contribute to wages
+    d. the comparison bewteen differet states in the U.S. on wages separating by full time and part time jobs
